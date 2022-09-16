@@ -78,7 +78,7 @@ h1 {
     color: var(--Soft-red);
 }
 
-.query-container:hover > h3 {
+.query-container:hover > .h2 {
     color: inherit;
     font-weight: 200;
 }
@@ -86,7 +86,7 @@ h1 {
     cursor: pointer;
 }
 
-h3 {
+.h2 {
     font-size: 15px;
     font-weight: 200;
     color: var(--Very-dark-grayish-blue);
