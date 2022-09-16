@@ -3,7 +3,6 @@ const elementos = document.querySelectorAll(".query-container");
 let condition = [];
 
 for (let i = 0; i < elementos.length; i++) {
-    // console.log(elementos[i]);
     condition[i] = false;
     elementos[i].addEventListener("click", ()=>{
         if (condition[i]) {
@@ -28,7 +27,6 @@ const toDown = (id) => {
     condition[id] = 1;
     const query = document.querySelectorAll("h3")[id];
     query.style.fontWeight = "900";
-    // query.style.color = "var(--Very-dark-desaturated-blue)"
     const img = document.querySelectorAll(".query-container img")[id];
     img.style.rotate = "180deg";
 }
